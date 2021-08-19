@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './Navbar.css'
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -26,11 +27,17 @@ const Navbar = () => {
 
   return (
     <nav>
-      {(toggleMenu || largeur > 500) && (
+      {(toggleMenu || largeur > 900) && (
         <ul className="liste">
+          <Link to='/'>
         <li className="items">Marketplace</li>
+          </Link>
+          <Link to='dashboard'>
         <li className="items">Dashboard</li>
+          </Link>
+          <Link to='creatorplace'>
         <li className="items">Creatorplace</li>
+          </Link>
       </ul>
         )}
       <button onClick={toggleNav} className="btn">Menu</button>
