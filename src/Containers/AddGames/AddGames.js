@@ -1,10 +1,12 @@
 import React from 'react';
+import ContentCreator from '../../Components/Copyright/ContentCreator';
+
 
 const AddGames = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+     <ContentCreator />
+    </>
   );
 };
 
