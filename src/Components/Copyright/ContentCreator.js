@@ -11,7 +11,7 @@ const ContentCreator = () => {
         <input type="text" id="title" placeholder="Game name" />
 
         <label htmlFor="image">Cover page</label>
-        <input type="" id="title" placeholder="Game cover" />
+        <input type="text" className="link" placeholder="https://www.google.com/cover-game.jpg" />
 
         <label htmlFor="description">Description Game</label>
         <textarea id="description game" placeholder="Description game"></textarea>
