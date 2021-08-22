@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './Navbar.css'
+import Login from '../Login/Login'
 import {Link} from 'react-router-dom'
 
 const Navbar = () => {
@@ -41,7 +42,7 @@ const Navbar = () => {
       </ul>
         )}
       <button onClick={toggleNav} className="btn">Menu</button>
-      <button className="login">LOG IN</button>
+      <Login />
     </nav>
   );
 };
