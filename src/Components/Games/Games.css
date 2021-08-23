@@ -1,12 +1,12 @@
 .games {
   width: 250px;
-  height: 350px;
+  height: 450px;
   padding: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 15px rgba(70, 11, 46, 0.9);
   margin: 10px 50px;
   cursor: pointer;
-  min-height: 200px;
-  text-align: left;
+  min-height: 350px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
