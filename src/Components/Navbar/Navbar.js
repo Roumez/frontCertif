@@ -41,8 +41,8 @@ const Navbar = () => {
           </Link>
       </ul>
         )}
-      <button onClick={toggleNav} className="btn">Menu</button>
       <Login />
+      <button onClick={toggleNav} className="btn">Menu</button>
     </nav>
   );
 };
