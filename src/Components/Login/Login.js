@@ -19,7 +19,7 @@ const Login = () => {
             className="login"
             onClick={() => (handleClickLogin())}
           >
-            {!web3State.isLogged ? "Log in" : web3State.chainId === 4 ?
+            {!web3State.isLogged ? "Log in" : web3State.chainId === 42 ?
                                               web3State.account.split("").splice(0, 6).join("") + "..." +
                                               web3State.account.split("").splice(-4).join("") : (<p style={{color: "red"}}>WRONG NETWORK</p>)}
           </button>
