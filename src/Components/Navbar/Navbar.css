@@ -16,10 +16,10 @@ nav {
   position: relative;
   font-size: 22px;
 }
-.liste a {
+/* .liste  {
   text-decoration: none;
   color: #f1f1f1
-}
+} */
 .items {
   margin: 0 55px;
   text-transform: uppercase;

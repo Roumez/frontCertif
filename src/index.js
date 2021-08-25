@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Web3Provider } from 'web3-hooks'
-import App from './App'
+import Dapp from './Dapp'
 
 ReactDOM.render(
   <React.StrictMode>
       <Web3Provider>
-        <App />
+        <Dapp />
       </Web3Provider>
   </React.StrictMode>,
   document.getElementById('root')

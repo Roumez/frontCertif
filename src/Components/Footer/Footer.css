@@ -1,0 +1,11 @@
+.footer{
+background:rgb(91, 47, 84);
+color: blanchedalmond;
+position:fixed;
+text-align: center;
+left: 0%;
+bottom:0;
+width:100%;
+padding-top:10px;
+height:20px;
+}

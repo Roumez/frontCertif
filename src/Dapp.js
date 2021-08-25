@@ -1,9 +1,10 @@
 import Navbar from './Components/Navbar/Navbar'
+import Footer from './Components/Footer/Footer'
 import Marketplace from './Containers/Marketplace/Marketplace';
 import Dashboard from './Containers/Dashboard/Dashboard'
 import AddGames from './Containers/AddGames/AddGames'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-function App() {
+function Dapp() {
   return (
     <>
       <Router>
@@ -13,9 +14,10 @@ function App() {
         <Route path="/dashboard" exact component={Dashboard} />
         <Route path="/creatorplace" exact component={AddGames} />
       </Switch>
+      <Footer />
       </Router>
     </>
   );
 }
 
-export default App;
+export default Dapp;
