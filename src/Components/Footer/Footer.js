@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <footer className="footer">
-      @ Copyright reserved Bilaz666 & Roumez
+      @Copyright reserved Bilaz666 & Roumez
     </footer>
   );
 };
