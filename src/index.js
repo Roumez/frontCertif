@@ -2,12 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Web3Provider } from 'web3-hooks'
 import Dapp from './Dapp'
+import {Provider} from 'react-redux'
+import store from './reducers/store'
 
 ReactDOM.render(
   <React.StrictMode>
       <Web3Provider>
-        <Dapp />
-      </Web3Provider>
+        <Provider store={store}>
+          <Dapp />
+        </Provider>,
+      </Web3Provider>,
   </React.StrictMode>,
   document.getElementById('root')
 )

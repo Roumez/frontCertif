@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './ContentCreator.css'
-//import {useDispatch} from 'react-redux';
+import {useDispatch} from 'react-redux';
 
 const ContentCreator = () => {
 
@@ -13,12 +13,28 @@ price:"",
 description:""
 });
 
-// const dispatch = useDispatch();
+const dispatch = useDispatch();
+
 
 //Don’t reload the page when you click on the button
 const handleForm = e => {
   e.preventDefault();
-}
+
+  dispatch({
+  type:'ADDGAME',
+  payload: games
+})
+
+setGames({
+  title:"",
+  cover:"",
+  creator:"",
+  price:"",
+  description:""
+})
+};
+
+
 
 
 const handleInputChange = (e) => {
